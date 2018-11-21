@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:id="@+id/calendarView"
+        android:layout_centerHorizontal="true"
+        android:weekNumberColor="#FFFFFF"
+        android:minDate="11/1/2018"
+        android:maxDate="11/30/2018"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true" />
+
+
+            <TextView
+                android:id = "@+id/datetoday4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/today_lunch"
+                android:gravity="center"
+                android:layout_below="@+id/calendarView"
+                android:layout_alignLeft="@+id/menutoday4"
+                android:layout_alignStart="@+id/menutoday4"
+                android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id = "@+id/datetoday5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/today_dinner"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_alignTop="@+id/datetoday4"
+        android:layout_toRightOf="@+id/datetoday4"
+        android:layout_toEndOf="@+id/datetoday4"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+                android:id = "@+id/menutoday4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="날짜를 눌러보세요"
+
+                android:textIsSelectable="false"
+                android:textSize="15dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_below="@+id/datetoday4"
+        android:layout_alignLeft="@+id/calendarView"
+        android:layout_alignStart="@+id/calendarView"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+                android:id = "@+id/menutoday5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="날짜를 눌러보세요"
+                android:textIsSelectable="false"
+                android:textSize="15dp"
+        android:layout_alignTop="@+id/menutoday4"
+        android:layout_alignLeft="@+id/datetoday5"
+        android:layout_alignStart="@+id/datetoday5"
+        android:textColor="#FFFFFF" />
+        </RelativeLayout>

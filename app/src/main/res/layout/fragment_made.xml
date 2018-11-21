@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="공지사항"
+        android:textSize="60dp"
+        android:id="@+id/information"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="이 앱은 매월 1일에 업데이트 해야 꾸준한 급식표를 받으실 수 있습니다-by 개발자PARK "
+        android:textSize="40dp"
+        android:id="@+id/informations"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/information"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한성고 급식앱(BAB) v.2.0.1 저작권 to DJPARKteam"
+        android:textSize="15dp"
+        android:id="@+id/license"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

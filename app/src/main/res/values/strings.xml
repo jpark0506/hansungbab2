@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">한성 급식(BAB)</string>
+    <string name="welcome_msg">환영합니다!</string>
+    <string name="sign_out">로그아웃</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">초대하기</string>
+    <string name="invitation_message">한성고 급식앱 나왔다 깔아랔ㅋㅋㅋ</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">한성고 급식앱 초대하기</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_up">회원가입</string>
+    <string name="today_lunch">오늘 중식</string>
+    <string name="today_dinner">오늘 석식</string>
+    <string name="tommorow_lunch">내일 중식</string>
+    <string name="tommorrow_dinner">내일 석식</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3427863697010669/7742484233</string>
+    <string name = "facebook_app_id">1736248819976601</string>
+    <string name="full_ad_id">ca-app-pub-3427863697010669/8448439436</string>
+</resources>
